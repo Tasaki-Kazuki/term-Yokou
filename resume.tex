@@ -32,45 +32,39 @@
 本研究では、骨格推定ライブラリであるOpenPoseを用いてカメラの入力から理想のポーズとの関節角度を比較し、視覚的にフィードバックを返すシステムを構築した。
 \section{背景}
 ボディビル競技とは日本ボディビル・フィットネス連盟によると
-\begin{quote}
+
+"
     競技としてのボディビルは、日頃のきびしいトレーニングで鍛え上げた全身の筋肉の発達度、そのダイナミックさ、美しさ、またバランスなどを競い合う個人スポーツです。\cite{bodybuilding}
-\end{quote}
+"
+
 審査は予選審査、決勝審査に分かれいる。それぞれの審査で規定の7ポーズをとる。決勝審査では規定のポーズに加え、音楽に合わせてポージングを行うフリーポーズ審査が行われる。審査基準は筋肉の大きさ（バルク）と形と明白さ（カット）、鮮明さ（デフィニション）、バランス（上下などの均斉）、ポーズの流れ、表現法などによる。
 
 Openposeとはカーネギーメロン大学（CMU）の Zhe Caoら が「Realtime Multi-Person pose estimation」\cite{openpose}の論文で発表した、
 深層学習を用いて人物のポーズを可視化してくれる手法であり、モーションキャプチャーなどの機器を使用することなく,
 画像、動画データ、又はカメラからの入力を用いて人間のポーズを可視化することができる。
 
-\subsection{hoge}
 
-小見出し付きの文章．
-
-\begin{enumerate}
-\item 番号付き箇条書き 
-\item 番号付き箇条書き
-\end{enumerate}
-
-\begin{itemize}
-\item 箇条書き
-\item 箇条書き
-\end{itemize}
 
 %---------------------------------------------
 
-\section{問題}
-
+\section{問題と仮説}
+\subsection*{問題}
+既存の鏡の前で自分を見ながら行う練習方法では理想との差異が分かりにくい。全身を意識することが困難であるため、ある部分が修正されたときに他の部位が崩れてしまうということが起きてしまい、ポーズ習得に時間がかかってしまうと考える。
+\subsection*{仮説}
+理想のフォームとの差異をリアルタイムにフィードバックを行いながらポージングを練習することでポーズの習得時間を短縮できる。
+\section{関連研究}
 \subsection{hoge}
-画像を図\ref{sample}に示す。
+% 画像を図\ref{sample}に示す。
 
-\begin{figure}[htbp]
-    \begin{center}
-        \includegraphics[width=6cm]{figure1.png}
-        \caption{画像の例}
-        \label{sample}
-    \end{center}
-\end{figure}
+% % \begin{figure}[htbp]
+% %     \begin{center}
+% %         \includegraphics[width=6cm]{figure1.png}
+% %         \caption{画像の例}
+% %         \label{sample}
+% %     \end{center}
+% % \end{figure}
  
-\subsection{fuga}
+% \subsection{fuga}
 fugafuga
 
 \section{関連研究}

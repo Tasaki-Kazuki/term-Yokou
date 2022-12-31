@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.7.14)  31 DEC 2022 18:16
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.7.14)  31 DEC 2022 22:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -169,20 +169,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 44.
+(Font)              scaled to size 11.53198pt on input line 51.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 44.
-File: figure1.png Graphic file (type bmp)
-<figure1.png>
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 68.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 68.
- [1
+(Font)              scaled to size 11.53198pt on input line 51.
+ (./resume.bbl [1
 
 
 
-] (./resume.bbl
+]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 18.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -191,12 +185,12 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1221 strings out of 479466
- 17786 string characters out of 5870548
+ 1206 strings out of 479466
+ 17602 string characters out of 5870548
  321069 words of memory out of 5000000
- 18941 multiletter control sequences out of 15000+600000
- 414890 words of font info for 80 fonts, out of 8000000 for 9000
+ 18932 multiletter control sequences out of 15000+600000
+ 413975 words of font info for 76 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 68i,10n,74p,372b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,10n,74p,372b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.dvi (2 pages, 6040 bytes).
+Output written on resume.dvi (2 pages, 6364 bytes).
