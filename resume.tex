@@ -1,7 +1,7 @@
 \documentclass[a4j,10pt]{jsarticle}
 \usepackage{layout,url,resume}
 \usepackage[dvipdfmx]{graphicx}
-\pagestyle{empty}
+\pagestyle{plain}
 
 \begin{document}
 %\layout
@@ -53,7 +53,6 @@ Openposeとはカーネギーメロン大学（CMU）の Zhe Caoら が「Realti
 \subsection*{仮説}
 理想のフォームとの差異をリアルタイムにフィードバックを行いながらポージングを練習することでポーズの習得時間を短縮できる。
 \section{関連研究}
-\subsection{hoge}
 % 画像を図\ref{sample}に示す。
 
 % % \begin{figure}[htbp]
@@ -65,12 +64,16 @@ Openposeとはカーネギーメロン大学（CMU）の Zhe Caoら が「Realti
 % % \end{figure}
  
 % \subsection{fuga}
-fugafuga
-
-\section{関連研究}
-
-\section{提案手法}
+\section{設計}
+最初に理想のポーズとする画像からOpenPoseで各関節の座標を取得しcsvで保存し関節角度を計算する。ユーザーはカメラに向かいポージングを行う。ユーザーの座標から関節角度を計測し、理想のポーズの関節角度に対して角度が正負両方の方向に対して10度以上異なる場合はその角度を修正するために動かす骨を赤く表示する。角度が正しい場合は緑で表示する。
 \section{実験}
+\subsection{実験概要}
+理想のポーズと練習後のユーザーのポーズの関節角度を比較しその差を評価した。
+今回のシステムを使い練習をした群と、鏡を見て練習を行った群を比較し、今回のシステムが与える影響を検証した。
+\subsection{実験方法}
+今回はボディビルのポージングの中で大きな役割を果たす肩関節、肘関節に注目し角度を取得する。理想とするポーズはJBBF公式YouTubeの「JBBF　BODYBUILDING ポージングレッスン」\cite{aizawa}
+の動画の2022 第68回 日本男子ボディビル選手権大会男子ボディビル優勝者の相澤隼人選手のフロントダブルバイセップスポーズとした。
+被験者に対し、フロントダブルバイセップスを10秒、休憩を10秒を1セットとし20セット練習を行わせ、終了後、鏡やフィードバックなしでポーズを計測した。
 \section{評価}
 
 \section{考察}

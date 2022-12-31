@@ -4,46 +4,46 @@ The top-level auxiliary file: resume.aux
 The style file: junsrt.bst
 Database file #1: resume.bib
 Warning--empty institution in openpose
-You've used 4 entries,
+You've used 5 entries,
             2270 wiz_defined-function locations,
-            549 strings with 4392 characters,
-and the built_in function-call counts, 697 in all, are:
-= -- 34
-> -- 22
+            551 strings with 4434 characters,
+and the built_in function-call counts, 855 in all, are:
+= -- 41
+> -- 26
 < -- 0
-+ -- 10
-- -- 6
++ -- 12
+- -- 7
 * -- 14
-:= -- 86
-add.period$ -- 9
-call.type$ -- 4
-change.case$ -- 5
+:= -- 103
+add.period$ -- 11
+call.type$ -- 5
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 45
-empty$ -- 91
-format.name$ -- 12
-if$ -- 165
+cite$ -- 6
+duplicate$ -- 56
+empty$ -- 115
+format.name$ -- 14
+if$ -- 204
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 5
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 3
-pop$ -- 37
+newline$ -- 24
+num.names$ -- 4
+pop$ -- 47
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 48
+skip$ -- 61
 stack$ -- 0
 substring$ -- 0
-swap$ -- 3
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 3
-width$ -- 5
-write$ -- 33
-is.kanji.str$ -- 31
+while$ -- 4
+width$ -- 6
+write$ -- 40
+is.kanji.str$ -- 38
 (There was 1 warning)
