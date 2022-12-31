@@ -1,12 +1,20 @@
 \begin{thebibliography}{1}
 
-\bibitem{example}
-Osamu Nakamura, Hiroaki Hazeyama, Yukito Ueno, and Akira Kato.
-\newblock A special purpose tld to resolve ipv4 address literal on dns64/nat64
-  environments.
-\newblock Internet-Draft draft-osamu-v6ops-ipv4-literal-in-url-02, IETF
-  Secretariat, October 2014.
-\newblock
-  \url{http://www.ietf.org/internet-drafts/draft-osamu-v6ops-ipv4-literal-in-url-02.txt}.
+\bibitem{fitness}
+フィットネスクラブの市場動向について（第1回：全8回).
+
+\bibitem{jbbf}
+日本ボディビル・フィットネス連盟.
+\newblock 平成27年度 事業報告書,2021年度 事業報告書.
+
+\bibitem{bodybuilding}
+日本ボディビル・フィットネス連盟.
+\newblock What is a bodybuilding?
+
+\bibitem{openpose}
+Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh.
+\newblock Realtime multi-person 2d pose estimation using part affinity fields.
+\newblock Technical report, November 2016.
+\newblock \url{https://arxiv.org/pdf/1611.08050.pdf}.
 
 \end{thebibliography}
