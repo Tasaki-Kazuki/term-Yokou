@@ -1,8 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{fitness}
-フィットネスクラブの市場動向について（第1回：全8回).
-
 \bibitem{jbbf}
 日本ボディビル・フィットネス連盟.
 \newblock 平成27年度 事業報告書,2021年度 事業報告書.
@@ -16,6 +13,21 @@ Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh.
 \newblock Realtime multi-person 2d pose estimation using part affinity fields.
 \newblock Technical report, November 2016.
 \newblock \url{https://arxiv.org/pdf/1611.08050.pdf}.
+
+\bibitem{Relatedresearch1}
+林~康弘鎌田~夏輝.
+\newblock Openpose
+  を用いた姿勢差分の算出によるパーソナルバーチャルトレーニングシステム.
+\newblock Internet-draft, IETF Secretariat, 2020.
+\newblock
+  \url{https://www.jsise.org/society/presentation/2020/pdf/01_hokkaido/a08.pdf}.
+
+\bibitem{Relatedresearch2}
+松原行宏岡本勝.
+\newblock 姿勢推定手法を活用したリアルタイム運動訓練支援環境.
+\newblock Internet-draft, IETF Secretariat, 2016.
+\newblock
+  \url{https://www.jstage.jst.go.jp/article/pjsai/JSAI2016/0/JSAI2016_1C4OS13a1/_pdf/-char/ja}.
 
 \bibitem{aizawa}
 日本ボディビル・フィットネス連盟.
